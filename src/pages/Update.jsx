@@ -53,11 +53,12 @@ const Update = () => {
   return (
     <div>
       <HeaderTwo />
-      <h3>Edit task</h3>
+
       {isLoading ? (
         <Loading />
       ) : (
-        <div>
+        <div className="container">
+          <h3>Edit task</h3>
           <form onSubmit={handleUpdate}>
             <ToastContainer />
             <div>
