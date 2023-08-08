@@ -40,11 +40,7 @@ const Task = ({title, description, tags, _id}) => {
         <h3 className="fw-bold text-capitalize p-2">{title}</h3>
         <p className='p-2'>{description}</p>
       </div>
-      <div className='d-flex justify-content-center align-items-center mt-5'>
-        <Link to="/all" className='text-decoration-none'>
-        <p className='back'>Back to Top</p>
-        </Link>
-      </div>
+   
     </div>
   );
 }

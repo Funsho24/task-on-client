@@ -31,6 +31,11 @@ const Mytask = () => {
             return <Task key={t._id} {...t} />;
           })}
       </div>
+      <div className="d-flex justify-content-center align-items-center mt-5">
+        <Link to="/all" className="text-decoration-none">
+          <p className="back">Back to Top</p>
+        </Link>
+      </div>
     </div>
   );
 }
